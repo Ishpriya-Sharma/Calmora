@@ -16,7 +16,7 @@ app.use(express.static("public"));
 //app.use("/api/auth", authRoutes);
 //app.use("/api/journal", journalRoutes);
 app.get("/", (req, res) => {
-  res.send("Calmora backend working 🚀");
+  res.send("Calmora backend working");
 });
 
 app.listen(5000, () => console.log("Server running on port 5000"));
