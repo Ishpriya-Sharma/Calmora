@@ -1,3 +1,4 @@
+throw new Error("THIS SERVER FILE IS RUNNING");
 console.log("SERVER FILE RUNNING");
 const express = require("express");
 const cors = require("cors");
