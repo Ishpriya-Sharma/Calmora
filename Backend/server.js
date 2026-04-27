@@ -6,8 +6,8 @@ const path = require("path");
 const app = express();
 
 // ✅ Load routes correctly
-const authRoutes = require(path.join(__dirname, "routes", "auth"));
-const journalRoutes = require(path.join(__dirname, "routes", "journal"));
+const authRoutes = require("./routes/auth.js");
+const journalRoutes = require("./routes/journal.js");
 
 app.use(cors());
 app.use(express.json());
